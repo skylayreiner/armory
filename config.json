@@ -1,0 +1,21 @@
+{
+  "base_url": "",
+  "site_title": "Armory",
+  "site_description": "A World of Warcraft player resource for character metrics",
+  "site_keywords": [
+    {
+      "keyword": "Armory"
+    },
+    {
+      "keyword": "Classic"
+    },
+    {
+      "keyword": "Burning Crusade"
+    },
+    {
+      "keyword": "Character"
+    }
+  ],
+  "twitter_account": "@my-account",
+  "github_account": "wutali"
+}
