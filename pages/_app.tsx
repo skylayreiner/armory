@@ -1,4 +1,4 @@
-import '../public/styles/tailwind.css'
+import '../public/styles/globals.css'
 import React from 'react'
 import type { AppProps } from 'next/app'
 
