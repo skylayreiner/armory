@@ -1,26 +1,23 @@
 import React from 'react'
 import Layout from '../components/layout'
+import Searchbar from '../components/searchbar/Searchbar'
 
 export default function Home() {
   return (
     <Layout>
-      <div className="xl:container min-h-screen mx-auto px-4 bg-black">
-        <div className="flex flex-wrap justify-start">
-          <div className="w-max lg:w-1/12 px-4 lg:order-1">
-            <div className="flex justify-center py-4 lg:pt-4 pt-8">
-              <div className="mr-4 p-3 text-center">
-                <span className="text-xl font-bold block uppercase tracking-wide text-gray-700">
-                  22
-                </span>
-                <span className="text-sm text-gray-500">Friends</span>
-              </div>
-            </div>
+      <div className="grid grid-rows-3 sm:grid-rows-5 justify-center h-full">
+        <div className="row-start-1 sm:row-start-4 self-end">
+          <div className="flex flex-col mb-2">
+            <img
+              className="h-8 w-auto sm:h-10"
+              src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+              alt="test"
+            />
+            <h1 className="text-5xl text-bold uppercase text-center text-gray-200">armory</h1>
           </div>
         </div>
-        <div className="xl:container mx-auto text-center">
-          <h3 className="text-4xl font-semibold leading-normal text-gray-200 mb-2">
-            Armory
-          </h3>
+        <div className="justify-self-center row-start-2 sm:row-start-5">
+          <Searchbar />
         </div>
       </div>
     </Layout>

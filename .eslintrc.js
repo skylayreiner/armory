@@ -14,4 +14,8 @@ module.exports = {
     'plugin:jest/recommended',
     'prettier',
   ],
+  rules: {
+    '@typescript-eslint/explicit-return-type:': 'off',
+    '@typescript-eslint/explicit-module-boundary-types': 'off'
+  }
 }
